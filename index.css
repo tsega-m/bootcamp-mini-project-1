@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  display: flex;
+  width: 90%;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  padding: 70px 0;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  width:40%;
+}
+
+
+.right{
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background-color: darkorchid;
+}
+
+#external{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+#git{
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-family:'Franklin Gothic Medium';
+  border-radius: 5px;
+  background-color:indigo;
+  color:white;
+}
+
+#linked{
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-family:'Franklin Gothic Medium';
+  border-radius: 5px;
+  background-color:indigo;
+  color:white;
+}
+
+#external img{
+  width: 15px;
+  margin-right: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#name{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+}
+
+#info{
+  padding: 20px;
+  font-style: italic;
+}
+
+#external{
+  padding: 20px;
+}
